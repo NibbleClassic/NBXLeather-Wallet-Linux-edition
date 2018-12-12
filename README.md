@@ -38,17 +38,14 @@ NBXleather relies on `nibble-service` to manage wallet container &amp; rpc commu
 
 On first launch, WalletShell will try to detect location/path of bundled `nibble-service` binary, but if it's failed, you can manually set path to the `nibble-service` binary on the Settings screen.
 
-### Download &amp; Run NBXleather
+### Download & Run NBXleather
 
-#### Windows:
-1. Download the latest installer here: https://github.com/Sudosups/NBX-GUI
-2. Run the installer (`NBXleather-<version>-win-setup.exe`) and follow the installation wizard.
-3. Launch N via start menu or desktop shortcut.
 
 #### GNU/Linux (AppImage):
 1. Download latest AppImage bundle here: https://github.com/Sudosups/NBX-GUI
 2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x NBXleather-<version>-linux.AppImage`
-3. Run/execute the file, double click in file manager, or run via shell/command line.
+3. Run ./Nibbled then Run/execute the NBXleather file, double click in file manager, or run via shell/command line.
+
 
 See: https://docs.appimage.org/user-guide/run-appimages.html
 
