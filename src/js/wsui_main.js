@@ -207,11 +207,11 @@ function populateElementVars(){
 // crude/junk template :)
 let jtfr = {
    tFind:  [
-        "WalletShell",
-        "https://github.com/turtlecoin/turtle-wallet-electron",
-        "TurtleCoin",
-        "TRTL",
-        "turtle-service"
+        "NBXleather",
+        "https://github.com/Sudosups/NBX-GUI",
+        "NibbleClassic",
+        "NBX",
+        "nibble-service"
     ],
     tReplace: [
         config.appName,
@@ -689,9 +689,9 @@ function showInitialPage(){
         changeSection('section-welcome');
     }
 
-    let versionInfo = document.getElementById('walletShellVersion');
+    let versionInfo = document.getElementById('NBXleatherVersion');
     if(versionInfo) versionInfo.innerHTML = WS_VERSION;
-    let tsVersionInfo = document.getElementById('turtleServiceVersion');
+    let tsVersionInfo = document.getElementById('nibbleServiceVersion');
     if(tsVersionInfo) tsVersionInfo.innerHTML = config.walletServiceBinaryVersion;
 }
 
@@ -895,7 +895,7 @@ function handleAddressBook(){
             }
         }
 
-        if(addressValue.length > 99) paymentIdValue.value = '';
+        if(addressValue.length > 98) paymentIdValue.value = '';
 
         let entryName = nameValue.trim();
         let entryAddr = addressValue.trim();
@@ -1347,7 +1347,7 @@ function handleSendTransfer(){
 
     sendInputFee.value = 0.1;
     function setPaymentIdState(addr){
-        if(addr.length > 99){
+        if(addr.length > 98){
             sendInputPaymentId.value = '';
             sendInputPaymentId.setAttribute('disabled', true);
         }else{
@@ -2173,7 +2173,7 @@ ipcRenderer.on('cleanup', () => {
     win.focus();
 
     var dialog = document.getElementById('main-dialog');
-    let htmlText = 'Terminating WalletShell...';
+    let htmlText = 'Terminating NBXleather...';
     if(wsession.get('loadedWalletAddress') !== ''){
         htmlText = 'Saving &amp; closing your wallet...';
     }

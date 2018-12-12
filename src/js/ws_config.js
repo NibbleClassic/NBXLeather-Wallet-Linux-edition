@@ -7,7 +7,7 @@ config.appSlogan = 'Everyone loves a little nibble!';
 config.appId = 'NBXleather';
 config.appGitRepo = 'https://github.com/Sudosups/NBX-GUI';
 
-// default port number for your daemon (e.g. TurtleCoind)
+// default port number for your daemon (e.g. Nibbled)
 config.daemonDefaultRpcPort = 17122;
 
 // wallet file created by this app will have this extension
@@ -26,15 +26,15 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = 'https://nibble-block.netlify.com/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '178.128.175.196:17120';
+config.remoteNodeDefaultHost = '127.0.0.1:17122';
 
 // remote node list update url, set to null if you don't have one
 config.remoteNodeListUpdateUrl = 'null';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-    '178.128.175.196:17120',
-    '178.128.164.134:17120',
+    '127.0.0.1:17122',
+    '127.0.0.1:17122',
     
 ];
 

@@ -278,7 +278,7 @@ function updateTransactions(result){
         settings.set('last_notification', newLastHash);
         let notiOptions = {
             'body': `Amount: ${(newTxAmount)} ${config.assetTicker}\nHash: ${newLastHash.substring(24,-0)}...`,
-            'icon': '../assets/walletshell_icon.png'
+            'icon': '../assets/NBXleather_icon.png'
         };
         let itNotification = new Notification('Incoming Transfer', notiOptions);
         itNotification.onclick = (event) => {

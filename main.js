@@ -59,7 +59,7 @@ function createWindow () {
 
     const winOpts = {
         title: `${config.appName} ${config.appDescription}`,
-        icon: path.join(__dirname,'src/assets/walletshell_icon.png'),
+        icon: path.join(__dirname,'src/assets/NBXleather_icon.png'),
         frame: true,
         width: DEFAULT_SIZE.width,
         height: DEFAULT_SIZE.height,
