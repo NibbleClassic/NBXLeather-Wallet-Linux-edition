@@ -1,10 +1,10 @@
 {
-  "name": "walletshell",
-  "productName": "WalletShell",
-  "description": "TurtleCoin GUI Wallet",
-  "version": "v0.3.6",
-  "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
-  "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
+  "name": "NBXleather",
+  "productName": "NBXleather",
+  "description": "NibbleClassic GUI Wallet",
+  "version": "v1.0.0",
+  "homepage": "https://nibble-nibble.com",
+  "repository": "https://github.com/Sudosups/NBX-GUI",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -15,7 +15,7 @@
     "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/turtle-service"
   },
   "keywords": [],
-  "author": "Rixombea, Macroshock, TurtleCoin Developers",
+  "author": "Rixombea, Macroshock, TurtleCoin Developers, Nibble Developers",
   "license": "ISC",
   "devDependencies": {
     "devtron": "^1.4.0",
@@ -34,8 +34,8 @@
     "semver": "^5.6.0"
   },
   "build": {
-    "appId": "lol.turtlecoin.walletshell",
-    "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers",
+    "appId": "NBXleather",
+    "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers, Nibble Developers",
     "directories": {
       "app": ".",
       "output": "dist",

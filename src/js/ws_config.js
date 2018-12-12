@@ -1,51 +1,51 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'WalletShell';
-config.appDescription = 'TurtleCoin Wallet';
-config.appSlogan = 'Slow and steady wins the race!';
-config.appId = 'lol.turtlecoin.walletshell';
-config.appGitRepo = 'https://github.com/turtlecoin/turtle-wallet-electron';
+config.appName = 'NBXleather';
+config.appDescription = 'NibbleClassic Wallet';
+config.appSlogan = 'Everyone loves a little nibble!';
+config.appId = 'NBXleather';
+config.appGitRepo = 'https://github.com/Sudosups/NBX-GUI';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 11898;
+config.daemonDefaultRpcPort = 17122;
 
 // wallet file created by this app will have this extension
-config.walletFileDefaultExt = 'twl';
+config.walletFileDefaultExt = 'nwl';
 
 // change this to match your wallet service executable filename
-config.walletServiceBinaryFilename = 'turtle-service';
+config.walletServiceBinaryFilename = 'nibble-service';
 
 // version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v0.10.0";
+config.walletServiceBinaryVersion = "v1.0.0";
 
 // default port number for your wallet service (e.g. turtle-service)
 config.walletServiceRpcPort = 8070;
 
 // block explorer url, the [[TX_HASH] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://turtle.land/?hash=[[TX_HASH]]#blockchain_transaction';
+config.blockExplorerUrl = 'https://nibble-block.netlify.com/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = 'nodes.hashvault.pro';
+config.remoteNodeDefaultHost = '178.128.175.196:17120';
 
 // remote node list update url, set to null if you don't have one
-config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json';
+config.remoteNodeListUpdateUrl = 'null';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-    'nodes.hashvault.pro:11898',
-    'public.turtlenode.io:11898',
-    'public.turtlenode.net:11898',
+    '178.128.175.196:17120',
+    '178.128.164.134:17120',
+    
 ];
 
 // your currency name
-config.assetName = 'TurtleCoin';
+config.assetName = 'NibbleClassic';
 // your currency ticker
-config.assetTicker =  'TRTL';
+config.assetTicker =  'NBX';
 // your currency address prefix, for address validation
-config.addressPrefix =  'TRTL';
+config.addressPrefix =  'Nib';
 // standard wallet address length, for address validation
-config.addressLength = 99;
+config.addressLength = 98;
 // intergrated wallet address length, for address validation
 config.integratedAddressLength = 187;
 
@@ -67,17 +67,10 @@ config.addressBookObfuscateEntries = true;
 config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6fba5';
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
-    { name: 'labaylabay',
-      address: 'TRTLv1A26ngXApin33p1JsSE9Yf6REj97Xruz15D4JtSg1wuqYTmsPj5Geu2kHtBzD8TCsfd5dbdYRsrhNXMGyvtJ61AoYqLXVS',
+    { name: 'Example',
+      address: 'Nib1Xt98vT4KJ1Qv6FTeP2HxC2w52iMSDg12WKRrE8L2BPrm79CP9FWgkuMJjhXAbiBXVDDKcZRdD2RET26VrY4J9Tvg64vBvr',
       paymentId: 'DF794857BC4587ECEC911AF6A6AB02513FEA524EC5B98DA8702FAC92195A94B2', 
-    },
-    { name: 'Macroshock',
-      address: 'TRTLv3R17LWbVw8Qv4si2tieyKsytUfKQXUgsmjksgrgJsTsnhzxNAeLKPjsyDGF7HGfjqkDegu2LPaC5NeVYot1SnpfcYmjwie',
-      paymentId: '', 
-    },
-    { name: 'RockSteady',
-      address: 'TRTLuxEnfjdF46cBoHhyDtPN32weD9fvL43KX5cx2Ck9iSP4BLNPrJY3xtuFpXtLxiA6LDYojhF7n4SwPNyj9M64iTwJ738vnJk',
-      paymentId: '', 
+    
     }
 ];
 
