@@ -16,7 +16,7 @@ config.walletFileDefaultExt = 'nwl';
 // change this to match your wallet service executable filename
 config.walletServiceBinaryFilename = 'nibble-service';
 
-// version on the bundled service (turtle-service)
+// version on the bundled service (nibble-service)
 config.walletServiceBinaryVersion = "v1.0.0";
 
 // default port number for your wallet service (e.g. turtle-service)
