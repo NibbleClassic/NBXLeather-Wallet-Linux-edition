@@ -44,7 +44,8 @@ On first launch, WalletShell will try to detect location/path of bundled `nibble
 #### GNU/Linux (AppImage):
 1. Download latest AppImage bundle here: https://github.com/Sudosups/NBX-GUI
 2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x NBXleather-<version>-linux.AppImage`
-3. Run ./Nibbled then Run/execute the NBXleather file, double click in file manager, or run via shell/command line.
+3. Run ./Nibbled by locating the app in your NBX directory and double clicking, then Run the NBXleather file by double clicking the app
+4. Daemon or public node address needs setting as 127.0.0.1 and Daemon/node port set as 17122
 
 
 See: https://docs.appimage.org/user-guide/run-appimages.html
