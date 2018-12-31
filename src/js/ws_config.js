@@ -47,7 +47,7 @@ config.addressPrefix =  'Nib';
 // standard wallet address length, for address validation
 config.addressLength = 98;
 // intergrated wallet address length, for address validation
-config.integratedAddressLength = 187;
+config.integratedAddressLength = 186;
 
 // minimum fee for sending transaction
 config.minimumFee = 0.1;
