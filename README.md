@@ -56,7 +56,7 @@ You need to have Node.js and npm installed, go to https://nodejs.org and find ou
 
 Once you have Node+npm installed:
 
-$ first, download nibble-service binary for each platform
+### first, download nibble-service binary for each platform
 $ from NibbleClassic official repo
 $ https://github.com/Sudosups
 $ extract the nibble-service executable somewhere
