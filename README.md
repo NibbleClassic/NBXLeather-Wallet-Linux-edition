@@ -61,30 +61,30 @@ $ from NibbleClassic official repo
 $ https://github.com/Sudosups
 $ extract the nibble-service executable somewhere
 
-$ clone the repo
+### clone the repo
 $ git clone https://github.com/Sudosups/NBX-Linux-GUI.git
 $ cd NBX-Linux-GUI
 
-$ install dependencies
+### install dependencies
 $ npm install
 
-$ create build+dist directory
+### create build+dist directory
 $ mkdir -p ./build && mkdir -p ./dist
 
-$ copy/symlink icons from assets, required for packaging
+### copy/symlink icons from assets, required for packaging
 $ cp ./src/assets/icon.* ./build/
 
-$ build GNU/Linux package
+### build GNU/Linux package
 $ mkdir -p ./bin/lin
 $ cp /path/to/linux-version-of/nibble-service ./bin/lin/
 $ npm run dist-lin
 
-$ build Windows package
+### build Windows package
 $ mkdir -p ./bin/win
 $ cp /path/to/win-version-of/nibble-service.exe ./bin/win/
 $ npm run dist-win
 
-$ build OSX package
+### build OSX package
 $ mkdir -p ./bin/osx
 $ cp /path/to/osx-version-of/nibble-service ./bin/osx/
 $ npm run dist-mac
