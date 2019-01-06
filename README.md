@@ -59,7 +59,7 @@ Once you have Node+npm installed:
 # first, download nibble-service binary for each platform
 # from NibbleClassic official repo
 # https://github.com/Sudosups
-# extract the turtle-service executable somewhere
+# extract the nibble-service executable somewhere
 
 # clone the repo
 $ git clone https://github.com/Sudosups/NBX-Linux-GUI.git
