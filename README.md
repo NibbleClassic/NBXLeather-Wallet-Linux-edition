@@ -43,7 +43,7 @@ On first launch, WalletShell will try to detect location/path of bundled `nibble
 
 #### GNU/Linux (AppImage):
 1. Download latest AppImage bundle here: https://github.com/Sudosups/NBX-GUI
-2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x NBXleather-<version>-linux.AppImage`
+2. Make it executable, either via GUI file manager or command line, e.g. Right click, permissions, set as executable or `chmod +x NBXleather-<version>-linux.AppImage`
 3. Run ./Nibbled by locating the app in your NBX directory and double clicking, then Run the NBXleather file by double clicking the app
 4. To use own blockchain the Daemon or public node address needs setting as 127.0.0.1 and Daemon/node port set as 17122
    To use a public node visit the main website to see a list of available nodes https://www.nibble-nibble.com/mining
